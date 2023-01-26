@@ -1,9 +1,13 @@
 import React from 'react'
+import Firsthalf from './components/firsthalf/Firsthalf'
+import Secondhalf from './components/secondhalf/Secondhalf'
 
 const App = () => {
     return (
-        <div className='text-3xl text-pink-500'>
-            App
+        <div className='flex flex-col w-screen'>
+            {/* SHOWCASE */}
+            <Firsthalf />
+            <Secondhalf />
         </div>
     )
 }
