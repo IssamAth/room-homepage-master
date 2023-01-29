@@ -4,7 +4,7 @@ import Secondhalf from './components/secondhalf/Secondhalf'
 
 const App = () => {
     return (
-        <div className='flex flex-col w-screen'>
+        <div className='flex flex-col w-screen md:h-screen'>
             {/* SHOWCASE */}
             <Firsthalf />
             <Secondhalf />
