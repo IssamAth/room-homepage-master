@@ -4,7 +4,7 @@ import GRAYIMAGE from '../../images/image-about-light.jpg'
 
 const Secondhalf = () => {
   return (
-    <div className='flex flex-col mt-16 md:flex-row md:mt-0 md:h-30v'>
+    <div className='flex flex-col mt-16 md:flex-row md:mt-0 md:h-35v'>
         {/* IMAGE */}
         <div className=' md:h-full md:w-30v'>
             <img src={IMAGEDARK} className=" md:h-full md:w-full" alt="" />
