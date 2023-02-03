@@ -119,7 +119,7 @@ const Firsthalf = () => {
                 </div>
             </div>
             {/* FIRST SECTION */}
-            <section className='container md:w-40v md:px-24 md:pt-20 md:relative'>
+            <section className='container md:w-40v md:relative md:p-0'>
                 {/* BUTTON ON DESKTOP*/}
                 <div className="hidden w-10v absolute bottom-0 left-0 md:flex md:w-10v bg-black">
                     <div className=' text-white h-16 text-2xl flex justify-center md:w-full'>
@@ -141,22 +141,26 @@ const Firsthalf = () => {
                         </div>
                     </div>
                 </div>
-                {/* TITLE */}
-                <div className=' mt-14 md:mt-8'>
-                    <h1 className=' text-3xl text-left font-bold leading-9 md:text-4.5xl'>{data[num].title}</h1>
-                </div>
-                {/* PARAGRAPH */}
-                <div className=' mt-4 md:mt-6'>
-                    <p className=' text-darkGray text-sm font-medium pr-1 leading-6 md:text-base md:pr-8'>
-                        {data[num].paragraph}
-                    </p>
-                </div>
-                {/* SHOP NOW LINK*/}
-                <div className=' w-full mt-7 md:mt-5'>
-                    <a href="#" className=' text-sm font-semibold space-x-7 md:text-bigsm'>
-                        <span className=''>S&nbsp; H&nbsp; O&nbsp; P &nbsp;&nbsp;  N&nbsp; O&nbsp; W  </span>
-                        <img src={ARROW} className=" inline-block md:w-12" alt="" />
-                    </a>
+                <div className=' md:h-full md:flex md:items-center md:px-16 2xl:px-28'>
+                    <div className='md:space-y-5'>
+                        {/* TITLE */}
+                        <div className=' mt-14 md:mt-0'>
+                            <h1 className=' text-3xl text-left font-bold leading-9 md:text-4.5xl 2xl:pr-20 2xl:text-5xl'>{data[num].title}</h1>
+                        </div>
+                        {/* PARAGRAPH */}
+                        <div className=' mt-4 md:mt-0'>
+                            <p className=' text-darkGray text-sm font-medium pr-1 leading-6 md:pr-8 md:text-bigsm md:font-normal 2xl:text-base'>
+                                {data[num].paragraph}
+                            </p>
+                        </div>
+                        {/* SHOP NOW LINK*/}
+                        <div className=' w-full mt-7 md:mt-5'>
+                            <a href="#" className=' text-sm font-semibold space-x-7 md:text-bigsm 2xl:text-bigbase md:hover:text-graynot'>
+                                <span className=''>S&nbsp; H&nbsp; O&nbsp; P &nbsp;&nbsp;  N&nbsp; O&nbsp; W  </span>
+                                <img src={ARROW} className=" inline-block md:w-12" alt="" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
