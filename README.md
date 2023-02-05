@@ -1,6 +1,6 @@
 # Frontend Mentor - Room homepage master solution
 
-This is a solution to the [Room homepage master challenge on Frontend Mentor]. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Room homepage master challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 ## Table of contents
 
 - [Overview](#overview)
